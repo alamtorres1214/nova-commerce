@@ -11,21 +11,27 @@ void main() {
     return; // Goldens flaky on Windows due to Flutter tool temp cleanup.
   }
 
-  testWidgets('ProductDetailsScreen (not found) golden', (tester) async {
-    await tester.binding.setSurfaceSize(const Size(390, 844));
-    addTearDown(() => tester.binding.setSurfaceSize(null));
+  testWidgets(
+    'ProductDetailsScreen (not found) golden',
+    (tester) async {
+      await tester.binding.setSurfaceSize(const Size(390, 844));
+      addTearDown(() => tester.binding.setSurfaceSize(null));
 
-    await tester.pumpWidget(
-      const ProviderScope(
-        child: MaterialApp(home: ProductDetailsScreen(productId: null)),
-      ),
-    );
+      await tester.pumpWidget(
+        const ProviderScope(
+          child: MaterialApp(
+            home: ProductDetailsScreen(productId: null),
+          ),
+        ),
+      );
 
-    await tester.pumpAndSettle();
+      await tester.pumpAndSettle();
 
-    expect(
-      find.byType(MaterialApp),
-      matchesGoldenFile('goldens/product_details_not_found.png'),
-    );
-  }, tags: ['golden']);
+      expect(
+        find.byType(MaterialApp),
+        matchesGoldenFile('goldens/product_details_not_found.png'),
+      );
+    },
+    tags: ['golden'],
+  );
 }
