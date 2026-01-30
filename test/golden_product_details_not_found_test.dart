@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:nova_commerce/features/product/presentation/product_details_screen.dart';
@@ -18,9 +19,15 @@ void main() {
       addTearDown(() => tester.binding.setSurfaceSize(null));
 
       await tester.pumpWidget(
-        const ProviderScope(
-          child: MaterialApp(
-            home: ProductDetailsScreen(productId: null),
+        ProviderScope(
+          child: ScreenUtilInit(
+            designSize: const Size(390, 844),
+            minTextAdapt: true,
+            builder: (_, __) {
+              return const MaterialApp(
+                home: ProductDetailsScreen(productId: null),
+              );
+            },
           ),
         ),
       );
